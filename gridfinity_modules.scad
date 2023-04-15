@@ -46,7 +46,7 @@ module grid_block(num_x=1, num_y=1, num_z=2, magnet_diameter=6.5, screw_depth=6,
     }
     
     // remove top so XxY can fit on top
-      color("blue") 
+      color("#98D8AA") 
       translate([0, 0, gridfinity_zpitch*num_z]) 
       pad_oversize(num_x, num_y, 1);
     
